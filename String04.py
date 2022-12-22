@@ -7,4 +7,4 @@ def main(s):
         bool: answer
     """
     
-    return s.isalpha()
+    return s.islower()
