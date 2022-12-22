@@ -7,5 +7,5 @@ def main(s):
         str: answer
     """
     
-    return s.title()
+    return s.title() 
 print(main("olim"))
