@@ -6,6 +6,14 @@ def main(s):
     Returns:
         str: answer
     """
+    y=0
+    l=0
+    while len(s)>l:
+        if s[l].isdigit():
+            y+=1
+        l+=1
+        
+
     
-    return s.title() 
-print(main("olim"))
+    return y
+print(main("python 2022"))
